@@ -1,3 +1,9 @@
+:root {
+    --swiper-navigation-color: #5800a9;
+    --swiper-pagination-color: #5800a9;
+
+}
+
 header {
     position: fixed;
     top: 0;
@@ -8,6 +14,7 @@ header {
     background-color: #5800a9;
     font-size: x-large;
     box-shadow: 0px 5px 10px rgba(96, 88, 117, 0.62);
+    z-index: 100;
 }
 
 html {
@@ -54,10 +61,7 @@ a:active {
     font-size: xx-large;
 }
 
-img {
-    max-width: 800px;
-    border-radius: 20px;
-}
+
 .apart-info {
     width: 90%;
     display: flex;
@@ -163,6 +167,19 @@ footer>div>a {
     }
 
 }
+
+
+.swiper-wrapper>img {
+}
+.swiper {
+    max-width: 1000px;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
 
 @media only screen and (max-width: 500px) {
     .top-links {
