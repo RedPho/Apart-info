@@ -1,0 +1,143 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B799FF;
+    font-size: x-large;
+    box-shadow: 0px 5px 10px rgba(96, 88, 117, 0.62);
+
+}
+
+html {
+    font-family: Kalam, serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.top-links {
+    padding-right: 50px;
+    display: flex;
+    gap: 31px;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: #a000ff;
+
+}
+
+/* selected link */
+a:active {
+    color: #AEE2FF;
+}
+
+.title {
+    padding-left: 50px;
+    font-size: xx-large;
+}
+
+img {
+    max-width: 800px;
+    border-radius: 20px;
+}
+.apart-info {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 31px;
+    //background-color: #7965a9;
+    border-radius: 30px;
+    padding: 5px;
+}
+footer {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: auto;
+    background-color: #9f88d7;
+    width: 100%;
+    color: white;
+    gap: 15px;
+}
+footer>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+
+}
+footer>div>p {
+    margin: 0;
+    text-align: center;
+}
+footer>div>h3 {
+    margin: 0;
+    text-align: center;
+}
+
+.content {
+    font-size: large;
+    margin: 40px 0;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.card {
+    padding: 20px;
+    border: #ff0000 solid 5px;
+    border-radius: 30px;
+    width: 300px;
+    height: 110px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 820px) {
+    .card {
+        height: auto;
+    }
+    header {
+        position: relative;
+    }
+    .content {
+        margin-top: 40px;
+    }
+    .top-links {
+        padding-right: 20px;
+        display: flex;
+        gap: 10px;
+    }
+
+}
+@font-face {
+    font-family: Kalam;
+    src: url("./fonts/Kalam/Kalam-Regular.ttf");
+}
