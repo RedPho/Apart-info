@@ -8,7 +8,6 @@ header {
     background-color: #B799FF;
     font-size: x-large;
     box-shadow: 0px 5px 10px rgba(96, 88, 117, 0.62);
-
 }
 
 html {
@@ -21,7 +20,6 @@ body {
     margin: 0;
     width: 100%;
     height: 100%;
-
 }
 .top-links {
     padding-right: 50px;
@@ -134,6 +132,9 @@ footer>div>h3 {
         padding-right: 20px;
         display: flex;
         gap: 10px;
+    }
+    .title {
+        padding-left: 20px;
     }
 
 }
