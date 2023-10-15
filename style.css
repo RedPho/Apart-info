@@ -138,6 +138,19 @@ footer>div>h3 {
     }
 
 }
+
+@media only screen and (max-width: 500px) {
+    .top-links {
+        padding-right: 10px;
+        display: flex;
+        gap: 10px;
+    }
+    .title {
+        padding-left: 10px;
+    }
+
+}
+
 @font-face {
     font-family: Kalam;
     src: url("./fonts/Kalam/Kalam-Regular.ttf");
