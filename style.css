@@ -114,6 +114,11 @@ footer>div>h3 {
     margin: 0;
     text-align: center;
 }
+footer>div>a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .content {
     font-size: large;
