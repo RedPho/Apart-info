@@ -18,7 +18,8 @@ header {
 }
 
 html {
-    font-family: "Times New Roman", serif;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -32,6 +33,26 @@ body {
     padding-right: 50px;
     display: flex;
     gap: 31px;
+}
+
+.content {
+    margin: 40px 0;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.card {
+    padding: 20px;
+    border: #ff0000 solid 5px;
+    border-radius: 30px;
+    width: 300px;
+    height: 180px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.61);
 }
 
 /* unvisited link */
@@ -128,26 +149,7 @@ footer>div>a {
     justify-content: center;
 }
 
-.content {
-    font-size: large;
-    margin: 40px 0;
-    margin-top: 130px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
-}
 
-.card {
-    padding: 20px;
-    border: #ff0000 solid 5px;
-    border-radius: 30px;
-    width: 300px;
-    height: 170px;
-    text-align: center;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.61);
-}
 
 @media only screen and (max-width: 820px) {
     .card {
