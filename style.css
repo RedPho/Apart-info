@@ -18,7 +18,7 @@ header {
 }
 
 html {
-    font-family: Kalam, serif;
+    font-family: "Times New Roman", Kalam, serif;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -105,6 +105,7 @@ footer {
     width: 100%;
     color: white;
     gap: 15px;
+    box-shadow: 0px -5px 10px rgba(96, 88, 117, 0.62);
 }
 footer>div {
     display: flex;
@@ -145,6 +146,7 @@ footer>div>a {
     width: 300px;
     height: 110px;
     text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.61);
 }
 
 @media only screen and (max-width: 820px) {
@@ -178,7 +180,8 @@ footer>div>a {
     max-width: 1000px;
     width: 90%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.61);
 }
 
 
