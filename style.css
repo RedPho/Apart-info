@@ -95,7 +95,6 @@ a:active {
     font-size: xx-large;
 }
 
-
 .apart-info {
     width: 90%;
     display: flex;
@@ -125,7 +124,6 @@ img {
 .photos>img {
     max-width: 49%;
 }
-
 
 footer {
     padding: 40px 0;
@@ -162,8 +160,6 @@ footer>div>a {
     justify-content: center;
 }
 
-
-
 @media only screen and (max-width: 820px) {
     .card {
         height: auto;
@@ -185,9 +181,7 @@ footer>div>a {
     .photos>img {
         max-width: 100%;
     }
-
 }
-
 
 .swiper-wrapper>img {
 }
@@ -232,9 +226,4 @@ footer>div>a {
         flex: 1 1 0px;
         margin: 0px;
     }
-}
-
-@font-face {
-    font-family: Kalam;
-    src: url("./fonts/Kalam/Kalam-Regular.ttf");
 }
