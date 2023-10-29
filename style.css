@@ -46,7 +46,7 @@ body {
 
 .top-pics {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
     width: 98%;
@@ -196,6 +196,10 @@ footer>div>a {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.61);
 }
 
+.girl-pics {
+    padding: 100px;
+}
+
 @media only screen and (max-width: 500px) {
     .top-links {
         padding-right: 10px;
@@ -213,6 +217,17 @@ footer>div>a {
         align-items: center;
         justify-content: center;
         width: 100%;
+
+    }
+    .girl-pics {
+        display: flex;
+        padding: 0;
+        justify-content: center;
+        gap: 0;
+    }
+    figure {
+        flex: 1 1 0px;
+        margin: 0px 20px;
     }
 }
 
