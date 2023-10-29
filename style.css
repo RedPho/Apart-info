@@ -62,7 +62,10 @@ body {
     height: 200px;
     text-align: center;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.61);
-    font-weight: bold;
+}
+
+h2 {
+    margin: 0px;
 }
 
 /* unvisited link */
