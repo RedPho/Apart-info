@@ -221,13 +221,13 @@ footer>div>a {
     }
     .girl-pics {
         display: flex;
-        padding: 0;
+        padding: 20px;
         justify-content: center;
         gap: 0;
     }
     figure {
         flex: 1 1 0px;
-        margin: 0px 20px;
+        margin: 0px;
     }
 }
 
