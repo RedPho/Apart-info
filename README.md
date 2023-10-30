@@ -1,1 +1,1 @@
-[live link](https://redpho.github.io/Apart-info/index.html)
+live link: https://www.yildirimlarapart.net
