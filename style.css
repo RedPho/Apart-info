@@ -227,3 +227,7 @@ footer>div>a {
         margin: 0px;
     }
 }
+
+footer>div>a {
+    padding: 4px;
+}
